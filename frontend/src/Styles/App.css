@@ -1,0 +1,12 @@
+/* src/Styles/App.css */
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+  }
+ 
+
+.page-background {
+    background-color: white;
+    min-height: 100vh;
+    overflow: auto;
+  }

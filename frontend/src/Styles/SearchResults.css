@@ -1,0 +1,94 @@
+/* SearchResults.css */
+
+.search-results-container {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .results-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .result-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .result-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .small-result-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .result-content {
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .restaurant-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .related-list {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .related-list h4 {
+    margin-bottom: 5px;
+  }
+  
+  .related-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .related-list ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

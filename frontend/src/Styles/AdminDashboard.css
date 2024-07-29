@@ -1,0 +1,28 @@
+/* src/components/AdminDashboard.css */
+.admin-dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .admin-dashboard h1 {
+    text-align: center;
+  }
+  
+  .admin-dashboard section {
+    margin-bottom: 20px;
+  }
+  
+  .admin-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-dashboard li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-dashboard li:last-child {
+    border-bottom: none;
+  }
+  

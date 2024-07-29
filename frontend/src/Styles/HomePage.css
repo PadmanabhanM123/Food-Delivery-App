@@ -1,0 +1,102 @@
+.home-container {
+    text-align: center;
+    padding: 20px;}
+body{
+    width: 100%;
+    /* padding-left: 60px; */
+    background-image: url("C:\Users\smile\Desktop\Food App\frontend\src\Image\wallpaper3.jpg");
+     background-size:cover;
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}  
+  .home-header {
+
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 4rem;
+  }
+
+  .auth-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  
+  }
+  
+  form {
+    background-color: #fcd423;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgb(10, 0, 0);
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-auth {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .toggle-auth p {
+    margin: 0;
+  }
+  
+  .toggle-auth button {
+    background-color:#09ff00;
+    border: none;
+    color: #f8fafa;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .toggle-auth button:hover {
+    text-decoration: underline;
+    background-color: #033a01;
+  }

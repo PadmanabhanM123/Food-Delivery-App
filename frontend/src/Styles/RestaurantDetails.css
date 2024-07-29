@@ -1,0 +1,94 @@
+.restaurant-details-container {
+    background-color: white; /* Ensure white background */
+    /* padding: 20px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .restaurant-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-header img {
+    width: 60px; /* Reduced width */
+    height: 60px; /* Reduced height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .restaurant-info {
+    flex-grow: 1;
+  }
+  
+  .restaurant-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .restaurant-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .food-items-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted minmax for smaller items */
+    gap: 20px;
+  }
+  
+  .food-item-card {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .food-item-card img {
+    width: 100%; /* Width adjusts to container */
+    height: 100px; /* Reduced height */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .food-item-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center; /* Centered text for better alignment */
+  }
+  
+  .food-item-price {
+    font-size: 1rem;
+    color: #333;
+    text-align: center; /* Centered text for better alignment */
+  }
+  
+  .food-item-add-to-cart {
+    margin-top: 10px;
+  }
+  
+  .food-item-add-to-cart button {
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .food-item-add-to-cart button:hover {
+    background-color: #ff5722;
+  }
+  
